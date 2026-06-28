@@ -6,6 +6,7 @@ import VocalForLocal from './main/VocalForLocal';
 import FutureVision from './main/FutureVision';
 import WhyNoah from './main/WhyNoah';
 import Vision from './main/Vision';
+import Contact from './main/Contact';
 
 const Main = () => {
   return (
@@ -17,6 +18,7 @@ const Main = () => {
       <FutureVision />
       <WhyNoah />
       <Vision />
+      <Contact />
     </>
   )
 }
