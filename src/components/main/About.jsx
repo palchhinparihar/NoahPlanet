@@ -4,6 +4,7 @@ import {
   FaChartLine,
   FaFlag,
 } from "react-icons/fa6";
+import HeaderLogo from "../../assets/logo.png";
 
 const features = [
   {
@@ -36,23 +37,30 @@ const About = () => {
   return (
     <section id="about" className="py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto">
-          <p className="text-green-700 font-semibold uppercase tracking-widest">
-            About Us
-          </p>
+        <div className="flex flex-col-reverse lg:flex-row items-center text-center">
+          {/* Section Header */}
+          <div className="text-center max-w-3xl mx-auto">
+            <p className="text-green-700 font-semibold uppercase tracking-widest">
+              About Us
+            </p>
 
-          <h2 className="mt-3 text-4xl font-bold text-gray-900">
-            About Noah Planet
-          </h2>
+            <h2 className="mt-3 text-4xl font-bold text-gray-900">
+              About Noah Planet
+            </h2>
 
-          <p className="mt-6 text-lg text-gray-600 leading-8">
-            Noah Planet is an Indian e-commerce ecosystem dedicated to promoting
-            local businesses, empowering entrepreneurs, and creating a platform
-            where Indian products can grow beyond geographical boundaries. We
-            believe that every global brand begins as a local one, and our
-            mission is to help Indian brands achieve that journey.
-          </p>
+            <p className="mt-6 text-lg text-gray-600 leading-8">
+              Noah Planet is an Indian e-commerce ecosystem dedicated to promoting
+              local businesses, empowering entrepreneurs, and creating a platform
+              where Indian products can grow beyond geographical boundaries. We
+              believe that every global brand begins as a local one, and our
+              mission is to help Indian brands achieve that journey.
+            </p>
+          </div>
+
+          {/* Logo */}
+          <div className="flex justify-center mb-6">
+            <img src={HeaderLogo} alt="Noah Planet Logo" className="h-24 md:h-32 lg:h-auto w-auto" />
+          </div>
         </div>
 
         {/* Vision & Mission */}
