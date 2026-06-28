@@ -1,4 +1,4 @@
-import { FaArrowRight, FaDownload } from "react-icons/fa6";
+import { FaArrowDown, FaDownload } from "react-icons/fa6";
 import Logo from "../../assets/logo.png";
 
 const Home = () => {
@@ -40,7 +40,7 @@ const Home = () => {
                 className="inline-flex items-center gap-2 rounded-lg bg-green-700 px-6 py-3 text-white font-medium hover:bg-green-800 transition"
               >
                 Learn More
-                <FaArrowRight size={18} />
+                <FaArrowDown size={18} className="animate-bounce" />
               </a>
             </div>
           </div>
