@@ -1,8 +1,9 @@
-import React from 'react'
+import React from 'react';
+import Home from './main/Home';
 
 const Main = () => {
   return (
-    <div>Main</div>
+    <Home />
   )
 }
 
