@@ -19,12 +19,12 @@ const Contact = () => {
 
           <div className="flex justify-center gap-3">
             <FaEnvelope />
-            info@noahplanet.com
+            noahplanetkr@gmail.com
           </div>
 
           <div className="flex justify-center gap-3">
             <FaPhone />
-            +91 XXXXX XXXXX
+            +91 8284896910
           </div>
 
           <div className="flex justify-center gap-3">

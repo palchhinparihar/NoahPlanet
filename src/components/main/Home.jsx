@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center bg-gradient-to-br from-green-50 via-white to-orange-50"
+      className="min-h-screen flex items-center bg-gradient-to-br from-green-50 via-white to-orange-50 md:py-5"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 py-20">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
