@@ -4,6 +4,8 @@ import About from './main/About';
 import Market from './main/Market';
 import VocalForLocal from './main/VocalForLocal';
 import FutureVision from './main/FutureVision';
+import WhyNoah from './main/WhyNoah';
+import Vision from './main/Vision';
 
 const Main = () => {
   return (
@@ -13,6 +15,8 @@ const Main = () => {
       <Market />
       <VocalForLocal />
       <FutureVision />
+      <WhyNoah />
+      <Vision />
     </>
   )
 }
