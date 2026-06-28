@@ -1,10 +1,15 @@
+import Footer from "./components/common/Footer";
+import Navbar from "./components/common/Navbar";
+import Main from "./components/Main";
 
 
 function App() {
 
   return (
     <>
-      hello
+      <Navbar />
+      <Main />
+      <Footer />
     </>
   )
 }
