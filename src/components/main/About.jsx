@@ -59,7 +59,7 @@ const About = () => {
 
           {/* Logo */}
           <div className="flex justify-center mb-6">
-            <img src={HeaderLogo} alt="Noah Planet Logo" className="h-24 md:h-32 lg:h-auto w-auto" />
+            <img src={HeaderLogo} alt="Noah Planet Logo" className="h-24 md:h-32 lg:h-50 w-auto" />
           </div>
         </div>
 

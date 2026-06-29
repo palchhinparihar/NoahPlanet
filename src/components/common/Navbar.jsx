@@ -25,7 +25,7 @@ const Navbar = ({ title }) => {
   ];
 
   return (
-    <nav className="fixed top-0 w-full bg-black/60 text-white z-50 backdrop-blur-xl px-3 xl:px-6">
+    <nav className="fixed top-0 w-full bg-black/30 z-50 backdrop-blur-xl px-3 xl:px-6">
       <div className="w-full mx-auto py-3 md:py-1.5 md:px-5 flex items-center justify-between md:justify-evenly gap-3">
         {/* Brand */}
         <a href="/" className="shrink-0 font-bold" onClick={closeMenu}>
@@ -43,7 +43,7 @@ const Navbar = ({ title }) => {
                 duration={500}
                 offset={offset}
                 activeClass="active-link"
-                className="cursor-pointer text-white text-sm lg:text-lg hover:text-green-200 transition-colors whitespace-nowrap"
+                className="cursor-pointer text-gray-900 text-sm lg:text-lg hover:text-green-800 transition-colors whitespace-nowrap"
               >
                 {label}
               </Link>
